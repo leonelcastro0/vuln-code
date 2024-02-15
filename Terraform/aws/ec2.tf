@@ -22,6 +22,7 @@ EOF
     Name                 = "${local.resource_prefix.value}-ec2"
     git_file             = "terraform/aws/ec2.tf"
   }
+  monitoring = true
 }
 
 resource "aws_ebs_volume" "web_host_storage" {
