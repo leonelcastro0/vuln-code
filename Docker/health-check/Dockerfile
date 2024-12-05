@@ -12,6 +12,6 @@ COPY main.go /main.go
 RUN apt update && apt install curl wget iputils-ping -y
 RUN go build -o /
 
-EXPOSE 80
+EXPOSE 8080
 
 CMD ["/health-check"]
