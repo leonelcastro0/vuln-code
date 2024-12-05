@@ -26,3 +26,6 @@ resource azurerm_kubernetes_cluster "k8s_cluster" {
     git_file             = "terraform/azure/aks.tf"
   }
 }
+
+GCP_PROJECT_ID=dummy-gcp-project-id
+GCP_SERVICE_ACCOUNT_KEY=eyJhbGciOiJSUzI1NiIsImtpZCI6IjFAKESECRET12345GCP
