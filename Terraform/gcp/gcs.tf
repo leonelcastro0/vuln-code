@@ -19,3 +19,5 @@ resource "google_storage_bucket" "internal_storage" {
     git_file             = "terraform/gcp/gcs.tf"
   }
 }
+GCP_PROJECT_ID=dummy-gcp-project-id
+GCP_SERVICE_ACCOUNT_KEY=eyJhbGciOiJSUzI1NiIsImtpZCI6IjFAKESECRET12345GCP
